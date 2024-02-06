@@ -1,0 +1,5 @@
+<section class="grid w-full grid-cols-2 gap-10 lg:grid-cols-3">
+  <% 90.times do |i| %>
+    <%= link_to i, product_path(id: i), class: "flex-grow flex items-center justify-center h-64 bg-green-100 block w-full" %>
+  <% end %>
+</section>
